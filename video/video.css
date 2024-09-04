@@ -20,3 +20,26 @@ video{
     width: 100%;
     height: auto;
 }
+button{
+    width: 150px;
+    height: 44px;
+    background-color:gold;
+    border-radius: 12%;
+
+}
+body{
+    background-color: cornflowerblue;
+}
+h1{
+    color: wheat;
+}
+a{
+    text-decoration: none;
+    color: darkblue ;
+}
+.espaco{
+    background-color: aqua;
+}
+.fff{
+background-color: azure;
+}
