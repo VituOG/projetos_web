@@ -27,7 +27,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ocupa a altura total da tela */
     text-align: center;
    
     
@@ -64,7 +63,6 @@ body {
     border: none;
     background-color: #e60000;
     color: white;
-    border-radius: 0 5px 5px 0;
     cursor: pointer;
 }
 
