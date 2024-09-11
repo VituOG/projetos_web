@@ -1,0 +1,352 @@
+element.style {
+}
+.index {
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+    font-family: "DIN Next", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #5b5b5b;
+    line-height: 1.6em;
+    overflow: auto;
+    background-color: #ffffff;
+}
+body, figure {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+:root {
+    --hs-swiper-navigation-size: 15px;
+}
+:root {
+    --hs-swiper-theme-color: #007aff;
+}
+:root {
+    --oke-widget-spaceAbove: 20px;
+    --oke-widget-spaceBelow: 20px;
+    --oke-starRating-spaceAbove: 0;
+    --oke-starRating-spaceBelow: 0;
+    --oke-button-backgroundColor: #a60000;
+    --oke-button-backgroundColorHover: #920000;
+    --oke-button-backgroundColorActive: #a60000;
+    --oke-button-textColor: #fff;
+    --oke-button-textColorHover: #fff;
+    --oke-button-textColorActive: #fff;
+    --oke-button-borderColor: #a60000;
+    --oke-button-borderColorHover: #989898;
+    --oke-button-borderColorActive: #a60000;
+    --oke-button-borderRadius: 0;
+    --oke-button-borderWidth: 1px;
+    --oke-button-fontWeight: 700;
+    --oke-button-fontSize: var(--oke-text-regular, 14px);
+    --oke-button-fontFamily: inherit;
+    --oke-border-color: #e2e2e2;
+    --oke-border-width: 1px;
+    --oke-text-primaryColor: #5b5b5b;
+    --oke-text-secondaryColor: #5b5b5b;
+    --oke-text-small: 14px;
+    --oke-text-regular: 14px;
+    --oke-text-large: 14px;
+    --oke-text-fontFamily: inherit;
+    --oke-avatar-size: 48px;
+    --oke-avatar-backgroundColor: #000;
+    --oke-avatar-placeholderTextColor: #5b5b5b;
+    --oke-highlightColor: #a60000;
+    --oke-shadingColor: #f7f7f8;
+    --oke-productImageSize: 48px;
+    --oke-attributeBar-shadingColor: #000;
+    --oke-attributeBar-borderColor: undefined;
+    --oke-attributeBar-backgroundColor: #d3d4dd;
+    --oke-attributeBar-markerColor: #a60000;
+    --oke-filter-backgroundColor: #fff;
+    --oke-filter-backgroundColorActive: #000;
+    --oke-filter-borderColor: #dbdde4;
+    --oke-filter-borderColorActive: #000;
+    --oke-filter-textColor: #5b5b5b;
+    --oke-filter-textColorActive: #fff;
+    --oke-filter-borderRadius: 100px;
+    --oke-filter-searchHighlightColor: #b2f9e9;
+    --oke-mediaGrid-chevronColor: #676986;
+    --oke-stars-foregroundColor: #a60000;
+    --oke-stars-backgroundColor: #fff;
+    --oke-stars-borderWidth: 1;
+    --oke-stars-borderColor: #a60000;
+}
+:root, :host {
+    --gw-dark-text-color: hsl(0, 1%, 17%);
+    --gw-blue-text-color: hsl(221, 73%, 16%);
+    --gw-post-modal-text-color: hsl(221, 73%, 16%);
+    --gw-grey-text-color: hsl(201, 8%, 36%);
+    --gw-dark-grey-text-primary-color: hsla(0, 0%, 10%, 1);
+    --gw-dark-grey-text-secondary-color: hsla(0, 0%, 10%, 0.8);
+    --gw-lightgrey-text-color: hsl(0, 0%, 69%);
+    --gw-white-text-color: hsl(0, 0%, 100%);
+    --gw-light-dark-color: hsla(0, 0%, 0%, 0.5);
+    --gw-error-color: hsl(0, 79%, 63%);
+    --gw-success-color: hsl(151, 55%, 42%);
+    --gw-grey-reset-button-color: hsl(0, 0%, 11%);
+    --gw-post-modal-button-hover-text-color: hsl(0, 0%, 100%);
+    --gw-post-modal-button-text-color: hsl(0, 0%, 100%);
+    --gw-post-modal-button-bg: hsl(221, 73%, 16%);
+    --gw-post-modal-button-hover-bg: hsl(219, 70%, 23%);
+    --gw-white-button-text-color: hsl(0, 0%, 100%);
+    --gw-tooltip-price-color: hsl(0, 1%, 17%);
+    --gw-tooltip-bg: hsl(0, 0%, 100%);
+    --gw-modal-dialog-bg: hsl(0, 0%, 100%);
+    --gw-tooltip-title-color: hsl(201, 8%, 36%);
+    --gw-space-base: 16px;
+    --gw-space-1: calc(var(--gw-space-base)* 0.125);
+    --gw-space-2: calc(var(--gw-space-base)* 0.25);
+    --gw-space-3: calc(var(--gw-space-base)* 0.375);
+    --gw-space-4: calc(var(--gw-space-base)* 0.5);
+    --gw-space-5: calc(var(--gw-space-base)* 0.625);
+    --gw-space-6: calc(var(--gw-space-base)* 0.75);
+    --gw-space-7: calc(var(--gw-space-base)* 0.875);
+    --gw-space-8: calc(var(--gw-space-base)* 1);
+    --gw-space-9: calc(var(--gw-space-base)* 1.125);
+    --gw-space-10: calc(var(--gw-space-base)* 1.25);
+    --gw-space-11: calc(var(--gw-space-base)* 1.375);
+    --gw-space-12: calc(var(--gw-space-base)* 1.5);
+    --gw-space-13: calc(var(--gw-space-base)* 1.625);
+    --gw-space-14: calc(var(--gw-space-base)* 1.75);
+    --gw-space-15: calc(var(--gw-space-base)* 1.875);
+    --gw-default-font-family: Roboto, sans-serif;
+    --gw-grey-border-color: hsl(204, 14%, 93%);
+    --gw-lightgrey-border-color: hsl(180, 4%, 95%);
+    --gw-darkblue-border-color: hsl(211, 20%, 26%);
+    --gw-divider-border-color: hsl(204, 7%, 87%);
+    --gw-border-radius-sm: 4px;
+    --gw-border-radius-md: 6px;
+    --gw-border-radius-lg: 9px;
+    --gw-border-radius-base: 5px;
+    --gw-z-index-underground: -1;
+    --gw-z-index-default: -1;
+    --gw-z-index-overlay: 100;
+    --gw-z-index-widget-placeholder: 2000;
+Show all properties (63 more)
+}
+:root, :host {
+    --gw-alert-standart-error: rgb(253, 237, 237);
+    --gw-alert-standart-warning: rgb(255, 244, 229);
+    --gw-alert-standart-success: rgb(237, 247, 237);
+    --gw-alert-standart-info: rgb(229, 246, 253);
+    --gw-alert-filled-error: #d32f2f;
+    --gw-alert-filled-warning: #ed6c02;
+    --gw-alert-filled-success: #2e7d32;
+    --gw-alert-filled-info: #0288d1;
+    --gw-alert-outlined-error: #ef5350;
+    --gw-alert-outlined-warning: #ff9800;
+    --gw-alert-outlined-success: #4caf50;
+    --gw-alert-outlined-info: #03a9f4;
+    --gw-alert-text-color-error: rgb(95, 33, 32);
+    --gw-alert-text-color-warning: rgb(102, 60, 0);
+    --gw-alert-text-color-info: rgb(1, 67, 97);
+    --gw-alert-text-color-success: rgb(30, 70, 32);
+    --gw-alert-text-color-white: #fff;
+}
+:root, :host {
+    --gw-font-size-base: 16px;
+    --gw-font-size-xlg: calc(var(--gw-font-size-base)* 1.5);
+    --gw-font-size-xl: calc(var(--gw-font-size-base)* 1.25);
+    --gw-font-size-lg: calc(var(--gw-font-size-base)* 1.125);
+    --gw-font-size-md: calc(var(--gw-font-size-base)* 1);
+    --gw-font-size-sm: calc(var(--gw-font-size-base)* 0.875);
+    --gw-font-size-xs: calc(var(--gw-font-size-base)* 0.75);
+    --gw-font-weight-normal: 400;
+    --gw-font-weight-medium: 500;
+    --gw-font-weight-semibold: 600;
+}
+:root, :host {
+    --gw-rv-main-color: var(--gw-theme__main-color, #072448);
+    --gw-rv-font-size-sm: 12px;
+    --gw-rv-font-size-md: 14px;
+    --gw-rv-font-size-lg: 16px;
+    --gw-rv-btn-accent-color: var(--gw-rv-main-color);
+    --gw-rv-btn-secondary-color: #fff;
+    --gw-rv-btn-text-bg: #fafafa;
+    --gw-rv-btn-transition-duration: 0.2s;
+    --gw-rv-btn-border-radius-sm: 10px;
+    --gw-rv-btn-border-radius-md: 12px;
+    --gw-rv-btn-text-sm: 12px;
+    --gw-rv-btn-text-md: 14px;
+    --gw-rv-btn-text-lg: 16px;
+    --gw-rv-btn-accent-color: var(--gw-rv-main-color);
+    --gw-rv-btn-secondary-color: var(--gw-theme__background);
+    --gw-rv-white-text-color: var(--gw-theme__text-on-brand);
+    --gw-rv-dark-text-color: var(--gw-theme__text-on-background);
+    --gw-rv-light-grey-color: hsl(0, 0%, 95%);
+    --gw-rv-avatar-text-color: #00baee;
+    --gw-rv-avatar-border-color: #f4f4f4;
+    --gw-rv-border-radius-base: var(--gw-border-radius-base);
+    --gw-rv-divider-border-color: var(--gw-divider-border-color);
+    --gw-rv-accent-color: var(--gw-theme__main-color);
+    --gw-rv-input-border-color: silver;
+    --gw-rv-fit-color-1: #ff5d15;
+    --gw-rv-fit-color-2: #fec601;
+    --gw-rv-fit-color-3: #2da866;
+    --gw-rv-fit-color-4: #fec601;
+    --gw-rv-fit-color-5: #ff5d15;
+    --gw-rv-fit-color-default: #333;
+    --gw-rv-fit-color-empty: #e1e1e1;
+    --gw-rv-review-reply-bg: #fafafa;
+    --gw-rv-progress-bar-bg: #ededed;
+    --gw-rv-sort-item-border-color: silver;
+    --gw-rv-sort-item-bg: #fff;
+    --gw-rv-sort-item-bg-hover: #f9f9f9;
+    --gw-rv-verified-buyer-text-color: #888;
+}
+:root {
+    --gw-rd-space-2: var(--gw-space-2);
+    --gw-rd-space-3: var(--gw-space-3);
+    --gw-rd-space-4: var(--gw-space-4);
+    --gw-rd-space-5: var(--gw-space-5);
+    --gw-rd-space-6: var(--gw-space-6);
+    --gw-rd-space-7: var(--gw-space-7);
+    --gw-rd-space-8: var(--gw-space-8);
+    --gw-rd-space-9: var(--gw-space-9);
+    --gw-rd-space-10: var(--gw-space-10);
+    --gw-rd-space-12: var(--gw-space-12);
+    --gw-rd-space-13: var(--gw-space-13);
+    --gw-rd-space-14: var(--gw-space-14);
+    --gw-rd-space-15: var(--gw-space-15);
+    --gw-rd-space-16: 32px;
+    --gw-rd-space-17: 34px;
+    --gw-rd-space-18: 36px;
+    --gw-rd-space-20: 40px;
+    --gw-rd-space-24: 48px;
+    --gw-rd-space-25: 50px;
+    --gw-rd-space-30: 60px;
+    --gw-rd-space-50: 100px;
+    --gw-rd-main-color: 0 0% 10%;
+    --gw-rd-primary-color: hsl(var(--gw-rd-main-color));
+    --gw-rd-secondary-color: hsl(var(--gw-rd-main-color) / 0.8);
+    --gw-rd-white-color: var(--gw-white-text-color);
+    --gw-rd-medium-black-color: hsla(0, 0%, 0%, 0.07);
+    --gw-rd-lightgrey-color: var(--gw-lightgrey-text-color);
+    --gw-rd-page-blue-color: hsl(219, 100%, 61%);
+    --gw-rd-page-lightblue-color: hsla(219, 100%, 61%, 0.12);
+    --gw-rd-page-lightgrey-color: hsl(0, 0%, 95%);
+    --gw-rd-layout-bg-color: hsl(210, 20%, 98%);
+    --gw-rd-card-bg-color: hsla(0, 0%, 98%, 1);
+    --gw-rd-page-icon-bg-color: hsla(216, 14%, 79%, 0.2);
+    --gw-rd-button-bg-color: hsl(216, 14%, 93%);
+    --gw-rd-light-skyblue-bg-color: hsl(210, 25%, 98%);
+    --gw-rd-progress-bar-bg-color: hsla(216, 14%, 79%, 0.7);
+    --gw-rd-card-border-color: hsl(252, 10%, 90%);
+    --gw-rd-field-border-color: hsla(221, 73%, 16%, 0.15);
+    --gw-rd-text-sm: 14px;
+    --gw-rd-border-radius-xs: 6px;
+    --gw-rd-border-radius-sm: 8px;
+    --gw-rd-border-radius-base: 10px;
+    --gw-rd-border-radius-md: 16px;
+    --gw-rd-main-shadow: rgba(0, 0, 0, 0.05);
+}
+:root {
+    --gw-ig-modal-tag-shadow-main-color: hsla(0, 0%, 100%, 0.5);
+    --gw-ig-modal-tag-shadow-transparent-color: hsla(0, 0%, 100%, 0);
+    --gw-ig-modal-tag-shadow-selected: hsla(0, 1%, 31%, 0.56);
+    --gw-ig-gallery-widget-header-pt: 10px;
+    --gw-ig-gallery-widget-header-pb: 15px;
+    --gw-ig-gallery-widget-header-fs: 1.6em;
+    --gw-iq-modal-tag-selected: #f1f2f7;
+}
+:root, :host {
+    --gw-layout-col-gutter: 0;
+    --gw-layout-container-gutter: 0;
+    --gw-layout-gap-compact: 8px;
+    --gw-layout-gap-wide: 20px;
+}
+:root, :host {
+    /* --gw-tabs-tab-btn: var(--gw-theme__brand); */
+    --gw-tabs-tab-btn: inherit;
+    --gw-tabs-underline-color: var(--gw-theme__main-color);
+    --gw-tabs-hover-color: #f8f8f8;
+    --gw-tabs-no-selected-color: transparent;
+    --gw-tabs-selected-color: #f2f2f2;
+    --gw-tabs-border-radius: 0.4em;
+    --gw-tabs-tag-bg: rgb(223, 225, 230);
+}
+:root, :host {
+    --gw-modal-padding: 0.7rem;
+    --gw-modal-shadow: -1px 0px 20px var(--gw-shadow-from-ambient-light), 0px 1px 5px var(--gw-shadow-from-direct-light);
+    --gw-modal-borders-color: var(--gw-lightgrey-border-color);
+    --gw-modal-dialog-bg: #fefefe;
+    --gw-modal-backdrop-bg: #171717;
+    --gw-modal-content-bg: #f6f6f6;
+    --gw-modal-close-icon-color: #6f7276;
+}
+:root, :host {
+    --gw-button-accent-color: #072448;
+    --gw-button-secondary-color: #fff;
+    --gw-button-text-bg: var(--gw-lightgrey-bg);
+    --gw-button-transition-duration: 0.15s;
+    --gw-button-border-radius-sm: 8px;
+    --gw-button-border-radius-md: 4px;
+    --gw-button-border-radius-lg: 4px;
+    --gw-button-text-sm: 10px;
+    --gw-button-text-md: 12px;
+    --gw-button-text-lg: 14px;
+}
+:root, :host {
+    --gw-drawer-btn-border-radius: 22px;
+    --gw-drawer-btn-box-shadow: rgb(218, 218, 218) 0px 3px 14px;
+    --gw-drawer-btn-text-color: var(--gw-dark-text-color);
+    --gw-drawer-btn-bg-color: #fff;
+    --gw-drawer-sidebar-bg: #fff;
+    --gw-drawer-sidebar-width: 360px;
+    --gw-drawer-sidebar-backdrop-bg: rgba(0, 0, 0, 0.4);
+}
+:root, :host {
+    --gw-wl-primary-link-color: #3772ff;
+    --gw-wl-link-hover: #072448;
+    --gw-wl-email-hover: #ffb02e;
+    --gw-wl-facebook-hover: #4267b2;
+    --gw-wl-twitter-hover: #141416;
+    --gw-wl-pinterest-hover: #e60023;
+    --gw-wl-whatsapp-hover: #25d366;
+}
+:root, :host {
+    --gw-vp-main-color: #e86c8b;
+    --gw-vp-controll-transition: var(--gw-default-transition);
+    --gw-vp-controll-bg-color: transparent;
+    --gw-vp-controll-bg-hover-color: var(--gw-vp-main-color);
+    --gw-vp-button-radius: 0.1rem;
+    --gw-vp-button-padding: 0.4rem;
+    --gw-vp-button-default-scale: 1;
+    --gw-vp-button-hover-scale: 1.1;
+    --gw-vp-slider-track-bg: transparent;
+    --gw-vp-slider-track-color: white;
+    --gw-vp-slider-progress-color: rgba(192, 192, 192, 0.4);
+    --gw-vp-slider-buffered-color: rgba(192, 192, 192, 0.5);
+    --gw-vp-slider-thumb-color: white;
+    --gw-vp-slider-track-height: 3px;
+    --gw-vp-slider-thumb-diameter: 8px;
+    --gw-vp-current-time-color: white;
+    --gw-vp-current-time-font-size: 1.1rem;
+    --gw-vp-current-time-font-weight: 400;
+}
+:root {
+    --color-body-text: #5b5b5b;
+    --color-body: #ffffff;
+    --color-bg: #ffffff;
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+::selection {
+    background: #FFF7B6;
+    color: black;
+}
