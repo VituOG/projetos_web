@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mats</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+    <div class="container">
+        <h1>matrícula</h1>
+        <form>
+            <fieldset>
+                <legend>Dados do Aluno</legend>
+                <div class="form">
+                    <label for="data-matricula">Data de Matrícula:</label>
+                    <input type="date" id="data-matricula" name="data-matricula">
+                </div>
+                <div class="form">
+                    <label for="codigo-matricula">Código da Matrícula:</label>
+                    <input type="text" id="codigo-matricula" name="codigo-matricula">
+                </div>
+                <div class="form">
+                    <label for="nome-aluno">Nome:</label>
+                    <input type="text" id="nome-aluno" name="nome-aluno">
+                </div>
+                <div class="form">
+                    <label for="data-nascimento">Data de Nascimento:</label>
+                    <input type="date" id="data-nascimento" name="data-nascimento">
+                </div>
+                <div class="form">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="number" name="cpf">
+                </div>
+                <div class="form">
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="sexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Filiação</legend>
+                <div class="form">
+                    <label for="nome-responsavel">Nome do Responsável:</label>
+                    <input type="text" id="nome-responsavel" name="nome-responsavel">
+                </div>
+                <div class="form">
+                    <label for="telefone-responsavel">Telefone:</label>
+                    <input type="tel" id="telefone-responsavel" name="telefone-responsavel">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <div class="form">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco">
+                </div>
+                <div class="form">
+                    <label for="complemento">Complemento:</label>
+                    <input type="text" id="complemento" name="complemento">
+                </div>
+                <div class="form">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade">
+                </div>
+                <div class="form">
+                    <label for="estado">Estado:</label>
+                    <input type="text" id="estado" name="estado">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Ano Escolar</legend>
+                <div class="form">
+                    <label for="ano-escolar">Ano Escolar:</label>
+                    <select id="ano-escolar" name="ano-escolar">
+                        <option value="infantil">Educação Infantil</option>
+                        <option value="fundamental">Ensino Fundamental</option>
+                        <option value="medio">Ensino Médio</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Relação de Documentos para Matrícula</legend>
+                <div class="form">
+                    <label for="documentos">Documentos:</label>
+                    <input type="text" id="documentos" name="documentos">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Observações</legend>
+                <div class="form">
+                    <textarea id="observacoes" name="observacoes" rows="4"></textarea>
+                </div>
+              </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
